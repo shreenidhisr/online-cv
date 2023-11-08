@@ -3,52 +3,55 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Shreenidhi Saigaonkar
+    tagline: Software Engineer.
+    avatar: profile_pic.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: deshpandeshreenidhi244@gmail.com
+    phone: +91 9480511703
+    timezone: IST(GMT+5:30)
+    citizenship: Indian
+    # website: blog.webjeda.com #do not add http://
+    linkedin: shreenidhi-saigaonkar-6730a6175/
+    # xing: alandoe
+    github: shreenidhisr
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
         - idiom: English
-          level: Native
-
-        - idiom: French
           level: Professional
 
-        - idiom: Spanish
+        - idiom: Kannada
+          level: Native
+
+        - idiom: Marathi
+          level: Native
+
+        - idiom: Hindi
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Singing
           link:
 
-        - item: Snowboarding
+        - item: Watching movies
           link:
 
         - item: Cooking
@@ -57,209 +60,182 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a dedicated Big Data engineer with a passion for reshaping the way data is perceived and leveraged. 
+      My career journey began with an internship at Cloudera, where I gained valuable experience in data management, 
+      focusing on Cloudera Manager and Hive ACID table replication. This early exposure to cutting-edge technologies 
+      fueled my commitment to driving innovation and efficiency in the world of data. As a full-time employee, 
+      I continued to expand my expertise, contributing to the development of the iceberg replication component. 
+      My career profile is characterized by a strong desire to make a meaningful impact in the field of Big Data 
+      and transform how organizations harness the power of their data. 
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: B.E in Computer Science
+        university: R.V. College of engineering
+        time: 2018 - 2022
+        marks: 9.05 CGPA
+        
+      - degree: P.U.C
+        university: Channabasaveshwar gurukul kardyal
+        time: 2016 - 2018
+        marks: 95.33 %
+        
+      - degree: SSLC
+        university: Shri khadkeshwar vidya mandir bhalki
+        time: 2015 - 2016
+        marks: 98.40 %
+        
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Software Engineer - 1
+        time: 2022 July - Present
+        company: Cloudera, Bangalore
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          In my role as a Software Engineer I, I encountered a series of challenging tasks that encompassed a wide range of responsibilities, 
+          from writing code to addressing S1 escalations. My primary focus was on the DR stories of Hive ACID replication, 
+          where I played a pivotal role in enhancing the platform's functionality and performance.
+            - Designed and implemented a critical feature called "Reset," 
+              which effectively reset the replication flow from a failover state to a normal state, ensuring data consistency and reliability.
+            - Gained comprehensive insight into the entire Software Development Life Cycle (SDLC), providing me with a holistic understanding of software engineering practices.
+            - Gained insights into the open-source community by contributing to the Apache Hive project, further honing my development skills.
+            - I expanded my expertise to orchestrate Apache Iceberg replication through Cloudera Manager. In this role, I implemented Kerberos security support, 
+              enhanced replication for each table by providing mechanism to replicate column statistics, and provided log4j support for Iceberg replication.
+      - role: Software engineer intern
+        time: 2022 jan - 2022 June
+        company: Cloudera, Bangalore
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          During my internship, I had the opportunity to work extensively on the replication component of Cloudera Manager, 
+          which plays a pivotal role in orchestrating data replication for specific services. This experience exposed me 
+          to various aspects of software development, testing, and open source contributions, making it a valuable addition to my resume.
+            - Developed unit test cases to ensure the reliability and robustness of the replication component.
+            - Participated in refactoring the existing Hive ACID replication code, enhancing its maintainability and performance.
+            - Gained insights into the open-source community by contributing to the Apache Hive project, further honing my development skills.
+            - Worked with cutting-edge technologies in the big data ecosystem, including Hive, Hadoop, YARN, HDFS, and more.
+     
+# certifications:
+      # title: Certifications
+      # list:
+      #   - name: CV Builder
+      #     start: 2020
+      #     end: 2021
+      #     organization: Microsoft
+      #     credentialid: 111-222
+      #     credentialurl: www.google.com
+      #     credentialname: Google
+      #     details: |
+      #       Details about cert. Lorem ipsum dolor sit amet, consectetur
+      #       adipiscing elit.
+      #       Nullam eget orci purus. Nullam ultrices neque nibh.
+      #       Aenean fermentum, felis vulputate suscipit accumsan,
+      #       sem enim bibendum augue, sed convallis arcu lacus at dui.
+      #       Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+      #       Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+      #       Praesent venenatis erat non augue suscipit consectetur.
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      #       Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+      #       fringilla vel. Ut euismod, sem sed vulputate venenatis,
+      #       justo diam viverra velit, sed rhoncus leo leo eu justo.
+      #       Suspendisse placerat risus ante, sed porta nisi blandit at.
+      #   - name: Git learning
+      #     start: 2019
+      #     end:
+      #     organization: Microsoft
+      #     credentialid: 111-222
+      #     credentialurl: www.github.com
+      #     credentialname: Github
+      #     details: |
+      #       Older certification. Lorem ipsum dolor sit amet, consectetur
+      #       adipiscing elit.
+      #       Nullam eget orci purus. Nullam ultrices neque nibh.
+      #       Aenean fermentum, felis vulputate suscipit accumsan,
+      #       sem enim bibendum augue, sed convallis arcu lacus at dui.
+      #       Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+      #       Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+      #       Praesent venenatis erat non augue suscipit consectetur.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+# projects:
+    # title: Projects
+    # intro: >
+    #   You can list your side projects in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    # assignments:
+    #   - title: Velocity
+    #     link: "#hook"
+    #     tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    #   - title: DevStudio
+    #     link: "#"
+    #     tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    #   - title: Tempo
+    #     link: "#"
+    #     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    #   - title: Atom
+    #     link: "#"
+    #     tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    #   - title: Delta
+    #     link: "#"
+    #     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# oss:
+    # title: OSS Contributions
+    # intro: >
+    #   You can list your open source software contributions in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    # contributions:
+    #   - title: Tempo
+    #     link: "#"
+    #     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    #   - title: Atom
+    #     link: "#"
+    #     tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    #   - title: Delta
+    #     link: "#"
+    #     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# publications:
+    # title: Publications
+    # intro: |
+    #   You can list your publications in this section. Lorem ipsum dolor sit
+    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #   bibendum fringilla a eu lectus.
+    # papers:
+    #   - title: The Art of Computer Programming
+    #     link: "#"
+    #     authors: Donald E. Knuth
+    #     conference: Addison-Wesley, 1968
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    #   - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+    #     link: "#"
+    #     authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+    #     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    #   - title: A syntax directed compiler for Algol 60
+    #     link: "#"
+    #     authors: Edgar T. Irons
+    #     conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Hadoop( Apache hive, HDFS, YARN)
+        level: 90%
+
+      - name: Data replication strategies
+        level: 90%
+
+      - name: Python, JAVA, SQL, RDBMS, Git, Github, Bash
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: HTML,CSS, JS, FLASK
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
