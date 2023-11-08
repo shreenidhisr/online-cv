@@ -10,7 +10,7 @@
     {% for interest in interests.info %}
 
       {% if interest.link %}
-      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+      <li style="display: inline-block; padding: 10px 20px;margin-top:10px; background-color: rgb(19, 13, 66); color: white; text-decoration: none; font-weight: bold; border: 1px solid darkblue; border-radius: 5px;"><a href="{{ interest.link }}">{{ interest.item }}</a></li>
       {% else %}
       <li>{{ interest.item }}</li>
       {% endif %}

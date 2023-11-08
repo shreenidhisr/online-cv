@@ -57,6 +57,9 @@ sidebar:
         - item: Cooking
           link:
 
+        - item: Download CV as PDF
+          link: ./shree_pdf.pdf
+
 career-profile:
     title: Career Profile
     summary: |
